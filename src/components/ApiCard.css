@@ -1,0 +1,56 @@
+.cardDiv{
+    width: 100%;
+    height: max-content;
+    /* background: pink; */
+}
+.Card{
+    width: 100%;
+    height: max-content;
+    /* background: #d87f7f; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.cardChild{
+    width: 21%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+    /* background: blueviolet; */
+}
+.imageDiv{
+    width: 100%;
+    height: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cardImage{
+    width: 70%;
+    height: 80%;
+}
+.btnDiv{
+    width: 100%;
+    height: 13%;
+    /* background: greenyellow; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.buyBtn{
+    width: 35%;
+    height: 70%;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.addBtn{
+    width: 35%;
+    height: 70%;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}

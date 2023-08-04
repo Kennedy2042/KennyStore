@@ -1,0 +1,41 @@
+.productBody{
+    width: 100%;
+    height: max-content;
+}
+
+.aboutUs{
+    width: 100%;
+    height: 70vh;
+    /* background: rgb(197, 197, 255); */
+    display: flex;
+    justify-content: center;
+}
+
+.about{
+    width: 80%;
+    height: 100%;
+    background: yellow;
+    border-radius: 15px;
+}
+
+.cardHolder{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    /* background: blue; */
+}
+
+hr{
+    width: 15.5%;
+    border: 5px solid black;
+}
+
+.cardHolder ul li{
+    list-style: none;
+    cursor: pointer;
+}
+
+.Active{
+    color: red;
+}
